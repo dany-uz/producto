@@ -73,4 +73,81 @@ nav ul {
     margin: 0 auto;
     background-color: #cdcdc0;
     padding: 10px;
+	min-height: 541px;
+}
+
+#inicio img {
+	width: 992px;
+	margin: auto 0;
+}
+
+footer {
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: #626d71;
+}
+
+footer .content {
+	max-width: 1350px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer .content p,a {
+	color: #fff;
+}
+
+footer .content .box {
+	width: 33%;
+	transition: all 0.4s ease;
+}
+
+footer .content .titulo {
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 16px;
+}
+
+footer .content p {
+	text-align: justify;
+}
+
+footer .content .lower .titulo {
+	margin: 24px 0 5px 0;
+}
+
+footer .content .lower i {
+	padding-right: 16px;
+}
+
+footer .content .middle {
+	padding-left: 80px;
+}
+
+footer .content .middle a {
+	line-height: 32px;
+}
+
+footer .bottom {
+	width: 100%;
+	text-align: right;
+	color: #d9d9d9;
+	padding: 0 40px 5px 0;
+}
+
+footer .bottom a {
+	color: #eb2f06;
+}
+
+footer a {
+	transition: all 0.3s ease;
+}
+
+footer a:hover {
+	color: #eb2f06;
 }
