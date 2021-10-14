@@ -1,0 +1,30 @@
+td {
+    padding: 10px;
+}
+
+.imgvt {
+    background-color: #b38867;
+}
+
+.textvt {
+    background-color: #ddbc95;
+}
+
+.compravt {
+    background-color: #ddbc95;
+    text-align: center;
+}
+
+.imgvt > img{
+    width: 250px;
+}
+
+.textvt .columna {
+    overflow: auto;
+    max-height: 200px;
+}
+
+td button {
+    width: 150px;
+    height: 50px;
+}
